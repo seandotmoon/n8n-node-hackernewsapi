@@ -7,6 +7,7 @@
   "keywords": [
     "n8n-community-node-package",
     "n8n",
+    "n8n-nodes",
     "hackernews",
     "hacker news",
     "algolia"
@@ -40,12 +41,12 @@
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
-    "eslint": "9.32.0",
+    "eslint": "^9.32.0",
     "prettier": "3.6.2",
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "n8n-workflow": "*"
+    "n8n-workflow": "1.82.0"
   }
 }
