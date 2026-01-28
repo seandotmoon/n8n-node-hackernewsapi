@@ -25,7 +25,7 @@ export const searchDescription: INodeProperties[] = [
 			{
 				name: 'Search',
 				value: 'search',
-				action: 'Search Hacker News',
+				action: 'Search hacker news',
 				description: 'Search Hacker News sorted by relevance, then points, then number of comments',
 				routing: {
 					request: {
@@ -37,7 +37,7 @@ export const searchDescription: INodeProperties[] = [
 			{
 				name: 'Search by Date',
 				value: 'searchByDate',
-				action: 'Search Hacker News by date',
+				action: 'Search hacker news by date',
 				description: 'Search Hacker News sorted by date, more recent first',
 				routing: {
 					request: {

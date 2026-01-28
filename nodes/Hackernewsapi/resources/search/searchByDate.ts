@@ -53,8 +53,7 @@ export const searchSearchByDateDescription: INodeProperties[] = [
 			show: showOnlyForSearchByDate,
 		},
 		default: '',
-		description:
-			'Filter on numerical conditions (<, <=, =, >, >=). Available fields: created_at_i, points, num_comments. Example: "created_at_i>1609459200,points>100"',
+		description: 'Filter on numerical conditions (&lt;, &lt;=, =, &gt;, &gt;=). Available fields: created_at_i, points, num_comments. Example: "created_at_i&gt;1609459200,points&gt;100"',
 		routing: {
 			send: {
 				type: 'query',

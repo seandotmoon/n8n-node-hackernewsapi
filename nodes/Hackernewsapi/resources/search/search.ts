@@ -53,8 +53,7 @@ export const searchSearchDescription: INodeProperties[] = [
 			show: showOnlyForSearch,
 		},
 		default: '',
-		description:
-			'Filter on numerical conditions (<, <=, =, >, >=). Available fields: created_at_i, points, num_comments. Example: "points>100,num_comments>10"',
+		description: 'Filter on numerical conditions (&lt;, &lt;=, =, &gt;, &gt;=). Available fields: created_at_i, points, num_comments. Example: "points&gt;100,num_comments&gt;10"',
 		routing: {
 			send: {
 				type: 'query',
