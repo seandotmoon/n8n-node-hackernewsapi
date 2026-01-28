@@ -8,8 +8,11 @@
     "n8n-community-node-package",
     "n8n",
     "n8n-nodes",
+    "n8n-nodes-hackernewsapi",
     "hackernews",
+    "hackernewsapi",
     "hacker news",
+    "hacker news api",
     "algolia"
   ],
   "author": {
