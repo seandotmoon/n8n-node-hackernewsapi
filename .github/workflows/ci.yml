@@ -22,7 +22,7 @@ jobs:
         run: 'npm ci'
 
       - name: Install n8n-node CLI
-        run: 'npm install -g only-allow @n8n/node-cli'
+        run: 'npm install -g n8n only-allow @n8n/node-cli'
 
       - name: Run lint
         run: 'npm run lint'
